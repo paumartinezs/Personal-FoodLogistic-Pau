@@ -452,22 +452,22 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-20">
                     <div
-                        class="bg-gradient-to-br from-lime-500/10 to-green-500/5 rounded-2xl p-8 border border-lime-500/20 section-fade text-center">
+                        class="bg-gradient-to-br from-lime-500/10 to-green-500/5 rounded-2xl p-8 border border-lime-500/20 section-fade text-center transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_0_40px_rgba(132,204,22,0.4)] hover:border-lime-400/60 cursor-default hover:bg-lime-500/10">
                         <div class="stat-number">500+</div>
                         <p class="text-gray-300 font-medium mt-2">Clients Actius</p>
                     </div>
                     <div
-                        class="bg-gradient-to-br from-blue-500/10 to-cyan-500/5 rounded-2xl p-8 border border-blue-500/20 section-fade text-center">
+                        class="bg-gradient-to-br from-blue-500/10 to-cyan-500/5 rounded-2xl p-8 border border-blue-500/20 section-fade text-center transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_0_40px_rgba(59,130,246,0.4)] hover:border-blue-400/60 cursor-default hover:bg-blue-500/10">
                         <div class="stat-number">2.5M</div>
                         <p class="text-gray-300 font-medium mt-2">Enviaments Anuals</p>
                     </div>
                     <div
-                        class="bg-gradient-to-br from-purple-500/10 to-pink-500/5 rounded-2xl p-8 border border-purple-500/20 section-fade text-center">
+                        class="bg-gradient-to-br from-purple-500/10 to-pink-500/5 rounded-2xl p-8 border border-purple-500/20 section-fade text-center transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_0_40px_rgba(168,85,247,0.4)] hover:border-purple-400/60 cursor-default hover:bg-purple-500/10">
                         <div class="stat-number">99.8%</div>
                         <p class="text-gray-300 font-medium mt-2">Taxa de Puntualitat</p>
                     </div>
                     <div
-                        class="bg-gradient-to-br from-orange-500/10 to-red-500/5 rounded-2xl p-8 border border-orange-500/20 section-fade text-center">
+                        class="bg-gradient-to-br from-orange-500/10 to-red-500/5 rounded-2xl p-8 border border-orange-500/20 section-fade text-center transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_0_40px_rgba(249,115,22,0.4)] hover:border-orange-400/60 cursor-default hover:bg-orange-500/10">
                         <div class="stat-number">20+</div>
                         <p class="text-gray-300 font-medium mt-2">Anys en el Sector</p>
                     </div>
@@ -569,43 +569,55 @@
                 </div>
 
                 <div class="space-y-4 section-fade">
-                    <div class="bg-neutral-900/50 border border-white/10 rounded-2xl overflow-hidden faq-item">
+                    <div class="bg-neutral-900/50 border border-white/10 rounded-2xl overflow-hidden faq-item transition-all duration-500 hover:shadow-[0_0_30px_rgba(132,204,22,0.15)] hover:border-lime-500/40 hover:bg-neutral-800/80">
                         <button
                             class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none faq-btn">
                             <span class="text-xl font-bold text-white">Quines temperatures podeu mantenir durant el
                                 transport?</span>
                             <i class="fas fa-chevron-down text-lime-500 transition-transform duration-300"></i>
                         </button>
-                        <div class="px-6 pb-5 text-gray-400 hidden faq-content">
-                            La nostra flota està equipada amb sistemes de refrigeració multitemperatura que ens permeten
-                            mantenir rangs des de congelat (-25ºC) fins a refrigerat (entre +2ºC i +8ºC) i temperatura
-                            controlada (+15ºC a +25ºC) en el mateix vehicle.
+                        <div class="faq-content grid grid-rows-[0fr] opacity-0 transition-all duration-500 ease-in-out">
+                            <div class="overflow-hidden">
+                                <div class="px-6 pb-5 text-gray-400">
+                                    La nostra flota està equipada amb sistemes de refrigeració multitemperatura que ens permeten
+                                    mantenir rangs des de congelat (-25ºC) fins a refrigerat (entre +2ºC i +8ºC) i temperatura
+                                    controlada (+15ºC a +25ºC) en el mateix vehicle.
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="bg-neutral-900/50 border border-white/10 rounded-2xl overflow-hidden faq-item">
+                    <div class="bg-neutral-900/50 border border-white/10 rounded-2xl overflow-hidden faq-item transition-all duration-500 hover:shadow-[0_0_30px_rgba(132,204,22,0.15)] hover:border-lime-500/40 hover:bg-neutral-800/80">
                         <button
                             class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none faq-btn">
                             <span class="text-xl font-bold text-white">Feu enviaments d'última milla al centre de
                                 Barcelona?</span>
                             <i class="fas fa-chevron-down text-lime-500 transition-transform duration-300"></i>
                         </button>
-                        <div class="px-6 pb-5 text-gray-400 hidden faq-content">
-                            Sí, disposem d'una flota de furgonetes elèctriques refrigerades amb etiqueta 0 emissions, la
-                            qual cosa ens permet accedir a zones de baixes emissions (ZBE) i fer lliuraments al centre
-                            de la ciutat a qualsevol hora sense restriccions mediambientals.
+                        <div class="faq-content grid grid-rows-[0fr] opacity-0 transition-all duration-500 ease-in-out">
+                            <div class="overflow-hidden">
+                                <div class="px-6 pb-5 text-gray-400">
+                                    Sí, disposem d'una flota de furgonetes elèctriques refrigerades amb etiqueta 0 emissions, la
+                                    qual cosa ens permet accedir a zones de baixes emissions (ZBE) i fer lliuraments al centre
+                                    de la ciutat a qualsevol hora sense restriccions mediambientals.
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="bg-neutral-900/50 border border-white/10 rounded-2xl overflow-hidden faq-item">
+                    <div class="bg-neutral-900/50 border border-white/10 rounded-2xl overflow-hidden faq-item transition-all duration-500 hover:shadow-[0_0_30px_rgba(132,204,22,0.15)] hover:border-lime-500/40 hover:bg-neutral-800/80">
                         <button
                             class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none faq-btn">
                             <span class="text-xl font-bold text-white">Com puc fer el seguiment de la meva
                                 mercaderia?</span>
                             <i class="fas fa-chevron-down text-lime-500 transition-transform duration-300"></i>
                         </button>
-                        <div class="px-6 pb-5 text-gray-400 hidden faq-content">
-                            Tots els nostres clients tenen accés al portal web i app on poden fer el seguiment en temps
-                            real (GPS) i veure l'estat de la temperatura de la mercaderia al llarg de tota la ruta
-                            mitjançant sensors IoT.
+                        <div class="faq-content grid grid-rows-[0fr] opacity-0 transition-all duration-500 ease-in-out">
+                            <div class="overflow-hidden">
+                                <div class="px-6 pb-5 text-gray-400">
+                                    Tots els nostres clients tenen accés al portal web i app on poden fer el seguiment en temps
+                                    real (GPS) i veure l'estat de la temperatura de la mercaderia al llarg de tota la ruta
+                                    mitjançant sensors IoT.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -943,14 +955,18 @@
 
                     // Close all others
                     document.querySelectorAll('.faq-content').forEach(c => {
-                        if (c !== content && !c.classList.contains('hidden')) {
-                            c.classList.add('hidden');
+                        if (c !== content && c.classList.contains('grid-rows-[1fr]')) {
+                            c.classList.remove('grid-rows-[1fr]', 'opacity-100');
+                            c.classList.add('grid-rows-[0fr]', 'opacity-0');
                             c.previousElementSibling.querySelector('i').classList.remove('rotate-180');
                         }
                     });
 
                     // Toggle current
-                    content.classList.toggle('hidden');
+                    content.classList.toggle('grid-rows-[0fr]');
+                    content.classList.toggle('grid-rows-[1fr]');
+                    content.classList.toggle('opacity-0');
+                    content.classList.toggle('opacity-100');
                     icon.classList.toggle('rotate-180');
                 });
             });
